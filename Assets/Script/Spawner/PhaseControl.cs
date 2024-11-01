@@ -5,7 +5,7 @@ public class PhaseControl : PanelSwitcher
 {
     // フェーズやタイミング
     public static bool isInPurchasePhase = false;
-    public static int currentPhase = 1;
+    private static int currentPhase = 1;
 
     [SerializeField] protected float phaseDuration = 30.0f; // バトルフェーズの長さ
     [SerializeField] protected float purchasePhaseDuration = 10.0f; // 購入フェーズの長さ
@@ -81,5 +81,10 @@ public class PhaseControl : PanelSwitcher
     public float GetCurrentPurchasePhaseTime()
     {
         return currentPurchasePhaseTime;
+    }
+
+    public bool GetCurrentPhase()
+    {
+        return isInPurchasePhase;
     }
 }

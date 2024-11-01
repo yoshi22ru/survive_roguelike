@@ -12,6 +12,8 @@ public class SpawnerBase : MonoBehaviour
     protected float currentSpawnTime;
     private float timeSinceLastSpawn = 0.0f;
 
+    PhaseControl phaseControl;
+
     protected virtual void Start()
     {
         currentSpawnTime = initialSpawnTime;
@@ -19,7 +21,7 @@ public class SpawnerBase : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (PhaseControl.isInPurchasePhase==false)
+        if (PhaseControl.isInPurchasePhase == false)
         {
             // ìGÇÃÉXÉ|Å[Éìä«óù
             timeSinceLastSpawn += Time.deltaTime;

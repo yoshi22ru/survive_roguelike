@@ -6,14 +6,16 @@ public class PlayerCon : MonoBehaviour
 {
 
     // 移動スピード
-    [SerializeField] float speed = 5;
-    Animator animator;
-    SpriteRenderer sr;
+    private float speed = 5;
+    protected Animator animator;
+    private SpriteRenderer sr;
+    private UseSkill useSkill;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        this.sr = GetComponent<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();
+        useSkill = GetComponent<UseSkill>();
     }
 
 
@@ -47,6 +49,12 @@ public class PlayerCon : MonoBehaviour
             sr.flipX = true;
         }
 
+        // スキル使用判定
+        if (useSkill.IsSkillFire())
+        {
+            animator.SetTrigger("Use");
+            useSkill.ResetSkillFire(); // スキル使用後にリセット
+        }
 
         // 移動する向きを求める
         Vector2 direction = new Vector2(x, y).normalized;
