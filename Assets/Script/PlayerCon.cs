@@ -52,12 +52,16 @@ public class PlayerCon : MonoBehaviour
         }
 
         // スキル使用判定
-        if (useSkill.IsSkillFire())
+        for (int i = 0; i < 4; i++)
         {
-            animator.SetTrigger("Use");
-            useSkillEffect.SetActive(true);
-            StartCoroutine(HideUseSkillEffect()); // 一定時間後にエフェクトを非表示
-            useSkill.ResetSkillFire(); // スキル使用後にリセット
+            if (useSkill.IsSkillFire(i)) // 各スキルの判定
+            {
+                animator.SetTrigger("Use");
+                useSkillEffect.SetActive(true);
+                StartCoroutine(HideUseSkillEffect()); // 一定時間後にエフェクトを非表示
+                useSkill.ResetSkillFire(i); // 使用したスキルをリセット
+                break; // 一度スキルを発動したらループを抜ける
+            }
         }
 
         // 移動する向きを求める
@@ -70,7 +74,7 @@ public class PlayerCon : MonoBehaviour
     // 一定時間後にエフェクトを非表示にするコルーチン
     private IEnumerator HideUseSkillEffect()
     {
-        yield return new WaitForSeconds(0.8f); // 0.5秒間エフェクトを表示
+        yield return new WaitForSeconds(1f); // 1秒間エフェクトを表示
         useSkillEffect.SetActive(false); // エフェクトを非表示に戻す
     }
 }

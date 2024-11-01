@@ -2,35 +2,48 @@ using UnityEngine;
 
 public class UseSkill : MonoBehaviour
 {
-    [SerializeField] GameObject skillButton;
-    private static bool isSkillFire = false;
+    [SerializeField] private GameObject[] skillButton; // スキルボタンの配列
+    private static bool[] isSkillFire = new bool[4]; // 各スキルの発動状態を管理
     PhaseControl phaseControl;
 
     private void Update()
     {
         if (PhaseControl.isInPurchasePhase)
         {
-            skillButton.SetActive(false);
+            foreach (var button in skillButton)
+            {
+                button.SetActive(false);
+            }
         }
         else
         {
-            skillButton.SetActive(true);
+            foreach (var button in skillButton)
+            {
+                button.SetActive(true);
+            }
         }
     }
 
-    public void SkillFire()
+    public void SkillFire(int skillIndex)
     {
-        isSkillFire = true;
-        Debug.Log("Use Skill");
+        if (skillIndex >= 0 && skillIndex < isSkillFire.Length)
+        {
+            isSkillFire[skillIndex] = true; // スキルを発動状態に設定
+            Debug.Log($"Skill {skillIndex} activated"); // デバッグログを追加
+        }
     }
 
-    public bool IsSkillFire()
+    public bool IsSkillFire(int skillIndex)
     {
-        return isSkillFire;
+        return skillIndex >= 0 && skillIndex < isSkillFire.Length && isSkillFire[skillIndex];
     }
 
-    public void ResetSkillFire()
+    public void ResetSkillFire(int skillIndex)
     {
-        isSkillFire = false;
+        if (skillIndex >= 0 && skillIndex < isSkillFire.Length)
+        {
+            isSkillFire[skillIndex] = false; // スキルをリセット
+            Debug.Log($"Skill {skillIndex} reset"); // デバッグログを追加
+        }
     }
 }

@@ -127,6 +127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 736795963}
     m_Modifications:
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5564829869663171927, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -219,6 +227,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1564639598, guid: 342502dcac737474ab29f4433fb464c8, type: 3}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: skillButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButton.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1100739432}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1100739432}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1100739432}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1100739432}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1100739432}
     - target: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_Name
       value: SkillButton (3)
@@ -5558,6 +5590,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 736795963}
     m_Modifications:
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5564829869663171927, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5650,6 +5690,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1834518398, guid: 342502dcac737474ab29f4433fb464c8, type: 3}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: skillButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButton.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1932838063}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1932838063}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1932838063}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1932838063}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1932838063}
     - target: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_Name
       value: SkillButton (2)
@@ -5712,6 +5776,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 736795963}
     m_Modifications:
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UseSkill, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5564829869663171927, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5804,6 +5892,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1101730668, guid: 342502dcac737474ab29f4433fb464c8, type: 3}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: skillButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButton.Array.data[0]'
+      value: 
+      objectReference: {fileID: 920495012}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 920495012}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 920495012}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 920495012}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[3]'
+      value: 
+      objectReference: {fileID: 920495012}
     - target: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_Name
       value: SkillButton (1)
@@ -5902,7 +6014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6375abc827cd0bc48902c0cd0014eb3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillButton: {fileID: 1711998912}
+  skillButton:
+  - {fileID: 1711998912}
+  - {fileID: 920495012}
+  - {fileID: 1932838063}
+  - {fileID: 1100739432}
 --- !u!1001 &702557978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6143,10 +6259,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843096993}
   m_CullTransparentMesh: 1
+--- !u!1 &920495012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+  m_PrefabInstance: {fileID: 674291309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &920495013 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5917602710802922967, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
   m_PrefabInstance: {fileID: 674291309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1100739432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+  m_PrefabInstance: {fileID: 19505995}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &1100739433 stripped
 RectTransform:
@@ -6569,6 +6695,11 @@ MonoBehaviour:
     MaxWindowSize: 0
     Padding: 0
   m_LegacyMaxWindowSize: -2
+--- !u!1 &1932838063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+  m_PrefabInstance: {fileID: 509825156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1932838064 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5917602710802922967, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
@@ -7188,6 +7319,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 736795963}
     m_Modifications:
+    - target: {fileID: 5076274152398990717, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5917602710802922967, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7268,6 +7403,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: skillButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButton.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1711998912}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1711998912}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1711998912}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1711998912}
+    - target: {fileID: 8348161071583404489, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
+      propertyPath: 'skillButtons.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1711998912}
     - target: {fileID: 9190676309043910305, guid: 6f88e5b4668315146a454009b14025ef, type: 3}
       propertyPath: m_Name
       value: SkillButton
