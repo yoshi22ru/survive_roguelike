@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7407068611273961459, guid: 53e9ca2f99aaaf04a91de502aa2a2777, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 7407068611273961459, guid: 53e9ca2f99aaaf04a91de502aa2a2777, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54,6 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4275623961751603612, guid: 53e9ca2f99aaaf04a91de502aa2a2777, type: 3}
+    - {fileID: 1130686851225187026, guid: 53e9ca2f99aaaf04a91de502aa2a2777, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -81,5 +82,5 @@ MonoBehaviour:
   enemyPrefab: {fileID: 3117805246739960281, guid: 8d7add88a5806954ebfd0ddaafe0d205, type: 3}
   initialSpawnTime: 8
   minSpawnTime: 1
-  enemiesPerPhase: 5
+  spawnIncreaseRate: 1.1
   spawnTimeReduction: 0.5

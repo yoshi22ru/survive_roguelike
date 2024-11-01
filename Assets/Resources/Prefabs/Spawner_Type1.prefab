@@ -47,6 +47,5 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2581871905287871583, guid: 3125b7fa1cdda1f41ae37ff44c8c11fe, type: 3}
   initialSpawnTime: 5
   minSpawnTime: 0.5
-  phaseDuration: 30
   spawnIncreaseRate: 1.1
   spawnTimeReduction: 0.1
