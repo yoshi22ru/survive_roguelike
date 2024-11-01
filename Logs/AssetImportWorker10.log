@@ -1,0 +1,582 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 16115 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity自作ゲーム/Survive_Roguelike
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+50896
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity自作ゲーム/Survive_Roguelike
+D:/Unity自作ゲーム/Survive_Roguelike
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2884]  Target information:
+
+Player connection [2884]  * "[IP] 192.168.10.9 [Port] 0 [Flags] 2 [Guid] 664443358 [EditorId] 664443358 [Version] 1048832 [Id] WindowsEditor(7,yoshi_GALLERIA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity自作ゲーム/Survive_Roguelike/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005557 seconds.
+- Loaded All Assemblies, in  0.389 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 300 ms
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (400ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.564 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.445 seconds
+Domain Reload Profiling: 3006ms
+	BeginReloadAssembly (773ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (691ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (800ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5714 unused Assets / (1.8 MB). Loaded Objects now: 6276.
+Memory consumption went from 133.7 MB to 131.9 MB.
+Total: 10.084600 ms (FindLiveObjects: 0.625100 ms CreateObjectMapping: 0.363400 ms MarkObjects: 7.807100 ms  DeleteObjects: 1.287600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12879.372265 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Apple.asset
+  artifactKey: Guid(be8d28aadb4afb644adf5e6d7ae20c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Apple.asset using Guid(be8d28aadb4afb644adf5e6d7ae20c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0990acf85019aa76145aaa3c92ffbc58') in 0.1001558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Yellow.asset
+  artifactKey: Guid(98f82f56ebf7f1d43af6aac3d6f620c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Yellow.asset using Guid(98f82f56ebf7f1d43af6aac3d6f620c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30ea3d57f2bd7579ec8d3229fc783c66') in 0.01706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_B.asset
+  artifactKey: Guid(756338e9d4399e241a0bbda8d8d9dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_B.asset using Guid(756338e9d4399e241a0bbda8d8d9dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e0404d950030daff751adc84f826f63') in 0.0181666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_SC.asset
+  artifactKey: Guid(50faee825d6854843b86947754cae4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_SC.asset using Guid(50faee825d6854843b86947754cae4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cc0c703e473f752288e31d289e9edd9') in 0.0171885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_E.asset
+  artifactKey: Guid(cd353aaae05ff4d4d88c8ee99c7da2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_E.asset using Guid(cd353aaae05ff4d4d88c8ee99c7da2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9516a40c12dc75f1d8a72a3c17fe26a6') in 0.0122484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_TreeC.asset
+  artifactKey: Guid(0764df37ddfb0714ab6f3fc26fd516a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_TreeC.asset using Guid(0764df37ddfb0714ab6f3fc26fd516a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b985356e9eac80e49ce491838bfb57c1') in 0.0186961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Book_Green.asset
+  artifactKey: Guid(937c7d3d9a3c91e44bdbaa82d7a33495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Book_Green.asset using Guid(937c7d3d9a3c91e44bdbaa82d7a33495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '908071fd2e82adcdd60d08b8cd3ebf3d') in 0.0154208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_C_R_B.asset
+  artifactKey: Guid(843c45ae16a80784988b23db1a798b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_C_R_B.asset using Guid(843c45ae16a80784988b23db1a798b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cf0fb503e2a48bb91247bba37607e74') in 0.0148344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_M.asset
+  artifactKey: Guid(5b4f3870433e99f40990fc3c30421382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_M.asset using Guid(5b4f3870433e99f40990fc3c30421382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61eda94fc5db625fcd7dee614562e9ab') in 0.0169534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_A.asset
+  artifactKey: Guid(046fb31de7ebf964d9f21fb573e54ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_A.asset using Guid(046fb31de7ebf964d9f21fb573e54ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74e7df980d71b4dfef84e5043f0e643') in 0.0141983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_A.asset
+  artifactKey: Guid(be8bd3da4f533674f9c74995bd550f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_A.asset using Guid(be8bd3da4f533674f9c74995bd550f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f9fdc7938a27620ccad5ed680063c91') in 0.0105699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Yellow.asset
+  artifactKey: Guid(89f99511da557224b85401a90233a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Yellow.asset using Guid(89f99511da557224b85401a90233a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaaf3db3daa3ac56f44a7416c58038cb') in 0.0120102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_C.asset
+  artifactKey: Guid(1f852022de9c87f4c9dce7fbad9ae36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Vase_C.asset using Guid(1f852022de9c87f4c9dce7fbad9ae36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f994813533afcad993b32ed1e232b376') in 0.01239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Shield.asset
+  artifactKey: Guid(efe5e1df6e4d6e54bae8a11374a4494d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Shield.asset using Guid(efe5e1df6e4d6e54bae8a11374a4494d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a0d6c59c80ab4d81e8c2de7d1c4ed1e') in 0.0120956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_GrassA.asset
+  artifactKey: Guid(4692f21bbf565a74690817b76ae26034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_GrassA.asset using Guid(4692f21bbf565a74690817b76ae26034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '543cc39015f3aa9fa8be17d53017175e') in 0.0130683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Hand.asset
+  artifactKey: Guid(e76bd7b26e95fa64e9f669a909e7a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Hand.asset using Guid(e76bd7b26e95fa64e9f669a909e7a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9b8a58cc01384e5af6d93aa0e676e0') in 0.0155014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_D.asset
+  artifactKey: Guid(a71b4b8a0811e17458647bbe2e19d855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_D.asset using Guid(a71b4b8a0811e17458647bbe2e19d855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a23b80bff477e6393a394314a8374810') in 0.0148592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_C.asset
+  artifactKey: Guid(e05e1d249b12a314da559369812999c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_C.asset using Guid(e05e1d249b12a314da559369812999c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d66147abad82e9fc88f6c91025bb55') in 0.0171379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Green.asset
+  artifactKey: Guid(a5682a77d250fb64fa79512ef41c136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Green.asset using Guid(a5682a77d250fb64fa79512ef41c136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ef4ad2c38d9388a77c9145a9ecd260') in 0.0125536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Chain_A.asset
+  artifactKey: Guid(1a8b887a236dac243924769ede6a132c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Chain_A.asset using Guid(1a8b887a236dac243924769ede6a132c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c05f7c5a07a3c4d6cf94d342cd0d9c') in 0.0114229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_B.asset
+  artifactKey: Guid(bc2fb116a58c0174fad2bfe1f0eee118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_B.asset using Guid(bc2fb116a58c0174fad2bfe1f0eee118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39ce8489ffe7e4148cfb3bb9f46eef63') in 0.0127495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Red.asset
+  artifactKey: Guid(9660af1dcc886f442b94071dea7ac43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Red.asset using Guid(9660af1dcc886f442b94071dea7ac43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeedc285be4e531e1f498b0afd45b0eb') in 0.0125345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Skull.asset
+  artifactKey: Guid(fa0c28987ee146f4aacbf2eac1effbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Skull.asset using Guid(fa0c28987ee146f4aacbf2eac1effbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f44af32b3575115f05ed39045700966c') in 0.0118563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_C_R.asset
+  artifactKey: Guid(cbfc8a1b6c3ae054ba851de61a908c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_C_R.asset using Guid(cbfc8a1b6c3ae054ba851de61a908c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6af978341689be0365e9bd73eeab489') in 0.0145623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_D.asset
+  artifactKey: Guid(ae6a257f99e1588479010d095b9fffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_D.asset using Guid(ae6a257f99e1588479010d095b9fffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33fa18a4e96357b83c4d812e2c2a65d1') in 0.0111172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Book_Blue.asset
+  artifactKey: Guid(20513f052010a78439a165667c4d4f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Book_Blue.asset using Guid(20513f052010a78439a165667c4d4f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f71fcc4f4237f4bd1a7bd5eca17255') in 0.0118391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Hammer.asset
+  artifactKey: Guid(1087414f781017842b4ae4c55802f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Hammer.asset using Guid(1087414f781017842b4ae4c55802f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0043182e4175319de27d92596663b77') in 0.0175592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Green.asset
+  artifactKey: Guid(cff07008e11a6ee45ac023122a47fa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Poition_Green.asset using Guid(cff07008e11a6ee45ac023122a47fa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e24fc266dd949617abe0f17b06d4b813') in 0.0130813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_K.asset
+  artifactKey: Guid(14a1cbc1dbaf4ad46ac7c843e4c667a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_K.asset using Guid(14a1cbc1dbaf4ad46ac7c843e4c667a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be723d778e849f05d61aec6f4fb0887') in 0.0140074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Chain_B.asset
+  artifactKey: Guid(cc3d43c49e9d1c94c96ee598633c506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Chain_B.asset using Guid(cc3d43c49e9d1c94c96ee598633c506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d9f36b4d40eb6b3a19de5d16bd4fd6f') in 0.0154258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_TreeB.asset
+  artifactKey: Guid(62ede8edd2449c7489ebb2fdc5186f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_TreeB.asset using Guid(62ede8edd2449c7489ebb2fdc5186f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd153889ed415c07614b7035b1b0ae827') in 0.012011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_candle.asset
+  artifactKey: Guid(db05ae97e01fc00439ff7122a6a51fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_candle.asset using Guid(db05ae97e01fc00439ff7122a6a51fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bedc57ad8c2e3d356f122f14bbf377be') in 0.0128819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Bone.asset
+  artifactKey: Guid(1c724951c68cae4468a7c11a5b68a00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Bone.asset using Guid(1c724951c68cae4468a7c11a5b68a00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3dd6a1bc141794a6c7e8f165a642ae7') in 0.0142065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_K.asset
+  artifactKey: Guid(785ee3a37877dd7469a6d0e3071f4957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_K.asset using Guid(785ee3a37877dd7469a6d0e3071f4957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c0b34d3734a6bcc04b037acdb5dc6f') in 0.0160813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Blue.asset
+  artifactKey: Guid(fb89fb78dc0194f4abd6aa7f4b283d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Item_Scroll_Blue.asset using Guid(fb89fb78dc0194f4abd6aa7f4b283d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70620381435648ff08fa7e3358a1e06a') in 0.0154786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Env_Z.asset
+  artifactKey: Guid(8b079d9fe88abac4cb3df3620ccaf2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Env_Z.asset using Guid(8b079d9fe88abac4cb3df3620ccaf2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '716e826e02a319547d03d7052775d78d') in 0.0148991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Green.asset
+  artifactKey: Guid(aca159cca77f5ca4589bbdce1506be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Green.asset using Guid(aca159cca77f5ca4589bbdce1506be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '264ba23cb82b225987be11d2c3877c2d') in 0.0139137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Root_B.asset
+  artifactKey: Guid(8c36e2d7318630146bd676620f539ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Root_B.asset using Guid(8c36e2d7318630146bd676620f539ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2d3c9941c4d6df932b44bec5b3cb9b5') in 0.0167637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Pipe_B.asset
+  artifactKey: Guid(20120557030ee034dbfc6ed1ee57e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Pipe_B.asset using Guid(20120557030ee034dbfc6ed1ee57e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46007255f2be934f708bd2b1251051c') in 0.0152076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.598386 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Floor_Red.asset
+  artifactKey: Guid(e94644264ab4e804aaa8a53f2034a4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Floor_Red.asset using Guid(e94644264ab4e804aaa8a53f2034a4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300eb120796fbfb10c9136f504756ca0') in 0.0152079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336900 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Prop_Web.asset
+  artifactKey: Guid(a98bdfda84090bb47a33f2f3ae82c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Prop_Web.asset using Guid(a98bdfda84090bb47a33f2f3ae82c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9f061f4d5dc65e8f8de20f1e31fc54d') in 0.0130184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Wall_B.asset
+  artifactKey: Guid(8e17c236b7dffbf4db076372522c4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Wall_B.asset using Guid(8e17c236b7dffbf4db076372522c4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d20a76d410a9350c234ebbbf88ea854') in 0.0137072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Wall_L.asset
+  artifactKey: Guid(9f4da2be19cb560438609050e9a66cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Wall_L.asset using Guid(9f4da2be19cb560438609050e9a66cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d7ef1f2b4a36d3e8be6e379d370751c') in 0.0189016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Wall_E.asset
+  artifactKey: Guid(62387ecf090021742a3fdda681285f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Wall_E.asset using Guid(62387ecf090021742a3fdda681285f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981ad82ee716bbed41fd4d64e91a1187') in 0.0126722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Wall_O.asset
+  artifactKey: Guid(ac82f3b5edde2e044ac95f3237a38fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Wall_O.asset using Guid(ac82f3b5edde2e044ac95f3237a38fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e208ac931c8f005b9c86954d7fe0947') in 0.0136218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dungeon Tale/Assets/Sprites/Wall_P.asset
+  artifactKey: Guid(77099f7a536ac3a4598834cac7d6f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tale/Assets/Sprites/Wall_P.asset using Guid(77099f7a536ac3a4598834cac7d6f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7f5bd3454bab7057eff08791ac829c7') in 0.0137882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
