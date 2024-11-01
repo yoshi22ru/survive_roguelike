@@ -10,12 +10,14 @@ public class PlayerCon : MonoBehaviour
     protected Animator animator;
     private SpriteRenderer sr;
     private UseSkill useSkill;
+    [SerializeField] private GameObject useSkillEffect;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         useSkill = GetComponent<UseSkill>();
+        useSkillEffect.SetActive(false); // エフェクトを非表示で開始
     }
 
 
@@ -53,6 +55,8 @@ public class PlayerCon : MonoBehaviour
         if (useSkill.IsSkillFire())
         {
             animator.SetTrigger("Use");
+            useSkillEffect.SetActive(true);
+            StartCoroutine(HideUseSkillEffect()); // 一定時間後にエフェクトを非表示
             useSkill.ResetSkillFire(); // スキル使用後にリセット
         }
 
@@ -61,5 +65,12 @@ public class PlayerCon : MonoBehaviour
 
         // 移動する向きとスピードを代入する
         GetComponent<Rigidbody2D>().linearVelocity = direction * speed;
+    }
+
+    // 一定時間後にエフェクトを非表示にするコルーチン
+    private IEnumerator HideUseSkillEffect()
+    {
+        yield return new WaitForSeconds(0.8f); // 0.5秒間エフェクトを表示
+        useSkillEffect.SetActive(false); // エフェクトを非表示に戻す
     }
 }

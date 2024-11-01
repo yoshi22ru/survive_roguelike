@@ -6,7 +6,7 @@ public class TimerDisplay : MonoBehaviour
     [SerializeField] TextMeshProUGUI battleTimerText;
     [SerializeField] TextMeshProUGUI purchaseTimerText;
 
-    PhaseControl phaseControl;
+    private PhaseControl phaseControl;
 
     private void Start()
     {
@@ -15,7 +15,7 @@ public class TimerDisplay : MonoBehaviour
 
     private void Update()
     {
-        if (phaseControl.GetCurrentPhase())
+        if (PhaseControl.isInPurchasePhase)
         {
             // 購入フェーズ中のタイマー表示
             purchaseTimerText.text = phaseControl.GetCurrentPurchasePhaseTime().ToString("f2");
