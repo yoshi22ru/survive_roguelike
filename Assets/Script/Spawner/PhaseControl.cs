@@ -1,21 +1,23 @@
 using System.Collections;
 using UnityEngine;
 
-
 public class PhaseControl : PanelSwitcher
 {
     // フェーズやタイミング
     public static bool isInPurchasePhase = false;
     public static int currentPhase = 1;
 
-    float phaseDuration = 30.0f; // フェーズの長さ
+    [SerializeField] protected float phaseDuration = 30.0f; // バトルフェーズの長さ
     [SerializeField] protected float purchasePhaseDuration = 10.0f; // 購入フェーズの長さ
 
-    //フェーズ管理を行う
-    private static float globalPhaseTime = 0.0f;
+    private float currentPhaseTime; // バトルフェーズ用の残り時間
+    private float currentPurchasePhaseTime; // 購入フェーズ用の残り時間
 
     protected virtual void Start()
     {
+        currentPhaseTime = phaseDuration;
+        currentPurchasePhaseTime = purchasePhaseDuration;
+
         // フェーズ管理を一度だけ開始
         if (currentPhase == 1)
         {
@@ -23,33 +25,30 @@ public class PhaseControl : PanelSwitcher
         }
     }
 
-    protected virtual void Update()
-    {
-     
-    }
-
     protected virtual IEnumerator PhaseCon()
     {
         while (true)
         {
-            // フェーズ時間管理
-            globalPhaseTime = 0.0f;
-
+            currentPhaseTime = phaseDuration;
             Debug.Log("Phase " + currentPhase + " started.");
 
-            while (globalPhaseTime < phaseDuration)
+            // バトルフェーズ
+            while (currentPhaseTime > 0)
             {
-                globalPhaseTime += Time.deltaTime;
+                currentPhaseTime -= Time.deltaTime;
                 yield return null;
             }
 
-            // フェーズ終了後、購入フェーズへ
+            // 購入フェーズへ
             StartPurchasePhase();
-            yield return new WaitForSecondsRealtime(purchasePhaseDuration);
+            currentPurchasePhaseTime = purchasePhaseDuration;
+            while (currentPurchasePhaseTime > 0)
+            {
+                currentPurchasePhaseTime -= Time.unscaledDeltaTime;
+                yield return null;
+            }
 
             EndPurchasePhase();
-
-            // フェーズ更新
             currentPhase++;
         }
     }
@@ -59,7 +58,7 @@ public class PhaseControl : PanelSwitcher
     {
         isInPurchasePhase = true;
         Time.timeScale = 0; // ゲームを停止
-        ActivePanel(panel);
+        ActivePanel(panel); // 購入フェーズパネルを表示
         Debug.Log("Purchase phase started.");
     }
 
@@ -68,7 +67,19 @@ public class PhaseControl : PanelSwitcher
     {
         isInPurchasePhase = false;
         Time.timeScale = 1; // ゲーム再開
-        NonActivePanel(panel);
+        NonActivePanel(panel); // 購入フェーズパネルを非表示
         Debug.Log("Purchase phase finished.");
+    }
+
+    // 現在のフェーズ時間を取得
+    public float GetCurrentPhaseTime()
+    {
+        return currentPhaseTime;
+    }
+
+    // 現在の購入フェーズ時間を取得
+    public float GetCurrentPurchasePhaseTime()
+    {
+        return currentPurchasePhaseTime;
     }
 }
